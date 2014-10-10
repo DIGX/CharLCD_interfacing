@@ -23,9 +23,9 @@
  * LCD_noDisplay()              - Display OFF
  * LCD_clear()                  - Display Clear
  * LCD_home()                   - Set cursor to Home position
- * LCD_setCursor(2,5)           - Set cursor to Line 2, character postion 5
+ * LCD_setCursor(2,5)           - Set cursor to Line 2, character position 5
  * LCD_print(1,10,"Hello")      - Display message "Hello" at Line 1, character postion 10
- * LCD_putchar('a')             - Print a character at current cursor postion
+ * LCD_putchar('a')             - Print a character at current cursor position
  * LCD_BCDprint(4,678)          - Print number 678 in 4 digit form(Output: 0678)
  * Set_LCD(0, 0x06)             - Send the command 0x06 to LCD(0=command, 1=data)
  *
